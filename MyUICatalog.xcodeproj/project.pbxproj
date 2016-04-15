@@ -18,6 +18,8 @@
 		9AAB07F61CB5333A008A5D9D /* HLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB07F51CB5333A008A5D9D /* HLAlertView.m */; };
 		9AAB07FA1CB534D6008A5D9D /* alert_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB07F81CB534D6008A5D9D /* alert_cancel@2x.png */; };
 		9AAB07FB1CB534D6008A5D9D /* alert_confirm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAB07F91CB534D6008A5D9D /* alert_confirm@2x.png */; };
+		9AAB08011CC08793008A5D9D /* HLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB08001CC08793008A5D9D /* HLGridView.m */; };
+		9AAB08041CC08816008A5D9D /* HLMargifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAB08031CC08816008A5D9D /* HLMargifierView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		9AAB07F51CB5333A008A5D9D /* HLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAlertView.m; sourceTree = "<group>"; };
 		9AAB07F81CB534D6008A5D9D /* alert_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_cancel@2x.png"; sourceTree = "<group>"; };
 		9AAB07F91CB534D6008A5D9D /* alert_confirm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_confirm@2x.png"; sourceTree = "<group>"; };
+		9AAB07FF1CC08793008A5D9D /* HLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLGridView.h; sourceTree = "<group>"; };
+		9AAB08001CC08793008A5D9D /* HLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLGridView.m; sourceTree = "<group>"; };
+		9AAB08021CC08816008A5D9D /* HLMargifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMargifierView.h; sourceTree = "<group>"; };
+		9AAB08031CC08816008A5D9D /* HLMargifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMargifierView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,10 +132,14 @@
 		9AAB07ED1CB531A0008A5D9D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9AAB08021CC08816008A5D9D /* HLMargifierView.h */,
+				9AAB08031CC08816008A5D9D /* HLMargifierView.m */,
 				9AAB07EE1CB53231008A5D9D /* HLCoordinateView.h */,
 				9AAB07EF1CB53231008A5D9D /* HLCoordinateView.m */,
 				9AAB07F41CB5333A008A5D9D /* HLAlertView.h */,
 				9AAB07F51CB5333A008A5D9D /* HLAlertView.m */,
+				9AAB07FF1CC08793008A5D9D /* HLGridView.h */,
+				9AAB08001CC08793008A5D9D /* HLGridView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -247,7 +257,9 @@
 			files = (
 				9AAB07F01CB53231008A5D9D /* HLCoordinateView.m in Sources */,
 				9AAB07F61CB5333A008A5D9D /* HLAlertView.m in Sources */,
+				9AAB08011CC08793008A5D9D /* HLGridView.m in Sources */,
 				9AAB07CB1CB52E18008A5D9D /* ViewController.m in Sources */,
+				9AAB08041CC08816008A5D9D /* HLMargifierView.m in Sources */,
 				9AAB07C81CB52E18008A5D9D /* AppDelegate.m in Sources */,
 				9AAB07C51CB52E18008A5D9D /* main.m in Sources */,
 			);
